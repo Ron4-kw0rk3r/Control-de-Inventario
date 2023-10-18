@@ -1,0 +1,51 @@
+/* Estilo para la ventana emergente */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #add8e6; /* Color celeste */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* Estilo para la barra de desplazamiento */
+    scrollbar-width: thin;
+    scrollbar-color: #007bff #add8e6;
+}
+
+
+.container {
+    text-align: center;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: auto;
+    text-align: center;
+}
+
+.btn_all {
+    color: #ffffff;
+    align-items: center;
+    background-color: #5bff66;
+    border-color: #afefc8;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    width: 175px;
+    height: 45px;
+}
+
+.btn_all:hover {
+    color: #fff;
+    background-color: #add8e6;
+    border-color: #0062cc;
+}
+
+
